@@ -1,0 +1,73 @@
+/* 
+ font-family: 'Anton', sans-serif;
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Hahmlet', serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Merienda One', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Sora', sans-serif;
+font-family: 'Walter Turncoat', cursive;
+ */
+
+ ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(252, 84, 112);
+  }
+
+.text-1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.hover-text-1:hover{
+    color: rgb(252, 84, 112) !important;
+}
+.hover-text-2:hover{
+    color: pink !important;
+}
+.button-clr{
+    background-color:rgb(252, 84, 112) ;
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+.button-clr:hover{
+    background-color: rgb(240, 76, 103);
+    color: white;
+}
+.head{
+    font-family: 'Sora', sans-serif;
+    color: rgb(51, 45, 45);
+}
+.glimp-img{
+    width: 210px;
+    height: 140px;
+    border-radius: 6px;
+}
+.glimp-img:hover{
+    transform: scale(1.4);
+    transition: 0.3s ease-in-out;
+
+}
+#sponsor{
+    background: black;
+}
+#sponsor .head{
+    color: white;
+    padding: 25px;
+}
